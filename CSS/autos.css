@@ -1,0 +1,116 @@
+
+/*Allgemein*/
+#imgTableBMW td, #imgTableAudi td {
+vertical-align: top;
+}
+
+#tableMercedes {
+margin: 10px 0;
+}
+
+#tableMercedes td {
+vertical-align: top;
+padding: 10px;
+}
+
+#tableMercedes img {
+border: 2px solid #404040;
+box-shadow: 0 0 5px #404040;
+}
+
+
+/*Vorschaubilder*/
+#big {
+max-width: 100%;
+max-height: 400px;
+border: 2px solid #FC3;
+box-shadow: 0 0 5px;
+text-align: left;
+margin-left: -20px;
+margin-right: 5px;
+}
+
+#big2 {
+max-width: 100%;
+max-height: 330px;
+border: 2px solid #FC3;
+box-shadow: 0 0 5px;
+padding: 0;
+}
+
+/*Zellenformatierung*/
+.showBig {
+width: 65%;
+padding: 0;
+}
+
+.showMiniTop {
+width: 17.5%;
+padding: 0 10px;
+text-align: right;
+}
+
+
+.showMiniBottom {
+min-width: 90%;
+padding: 0 10px;
+text-align: right;
+}
+
+/*Einzelne Bilder*/
+#bmw1 {
+width: 110%;
+border: 2px solid #404040;
+box-shadow: 0 0 5px #404040;
+cursor: pointer;
+padding: 0;
+margin: 0;
+margin-right: 5px;
+}
+
+#audi1 {
+width: 100%;
+border: 2px solid #404040;
+box-shadow: 0 0 5px #404040;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+
+
+#bmw2 {
+width: 100%;
+border: 2px solid #404040;
+box-shadow: 0 0 5px #404040;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+
+#audi2 {
+width: 100%;
+border: 2px solid #404040;
+box-shadow: 0 0 5px #404040;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+
+#bmw3{
+width: 90%;
+border: 2px solid #404040;
+box-shadow: 0 0 5px #404040;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+
+#audi3 {
+width: 40%;
+border: 2px solid #404040;
+box-shadow: 0 0 5px #404040;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+

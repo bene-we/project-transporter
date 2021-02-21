@@ -1,0 +1,55 @@
+															
+															
+#kontakt td {
+padding: 5px;
+}
+
+
+#kontakt textarea {
+max-width: /*209px Spaltenbreite*/327px;
+max-height: 500px;
+color: #FFCC33;
+background-color: #404040;
+border-radius: 5px;
+}
+
+#kontakt .text {
+text-align: right;
+vertical-align: top;
+padding-right: 20px;
+}
+
+#kontakt .input {
+text-align: left;
+}
+
+.formitem {
+color: #FC3;
+background-color: #404040;
+border-color: 404040;
+border: 1px solid #313131;
+font-family: Serpentine-Light-o;
+font-size: 1em;
+border-radius: 5px;
+}
+
+#kontakt #site table {
+padding-top: 40px;
+margin: 10px auto;
+}
+
+#anikon {
+margin-left: 50px;
+border: none;
+}
+
+
+#reset {
+	padding: 5px 10px;
+	cursor: pointer;
+
+
+form {
+border-radius: 10px;
+}
+

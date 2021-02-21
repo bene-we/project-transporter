@@ -1,0 +1,11 @@
+#404040				--- Grau  (BG)
+
+#FFCC33				--- Orange (Schrift)
+
+#FC5500				--- Rot (Transition)
+
+#323232				--- Grau (Schrift, dunkler)
+
+#111111				--- Schwarz-Grau (Trailer BG)
+
+#C59400				--- Orange-Braun (Links)

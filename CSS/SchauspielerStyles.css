@@ -1,0 +1,124 @@
+/*Schauspieler Bilder*/
+
+.dl:after {
+	border: 4px solid #111;
+	padding: 0;
+	
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	
+}
+
+.sFrank:after {
+	content: url('../Bilder/Frank/1165097-1440x900-[DesktopNexus.com]Thumb.jpg');
+	float: right;
+	margin-left: 20px;
+}
+
+.sLai:after {
+	content: url('../Bilder/Actors/LaiThumb.PNG');
+	float: left;
+	margin: 0 20px 0 0 ;
+}
+
+.sDarren:after {
+	content: url('../Bilder/Actors/DarrenThumb.PNG');
+	float: right;
+	margin-top: -20px;
+}
+.sDarren:hover:after {
+	margin:-20px 0 0  -10px;
+}
+
+.sTarconi:after {
+	content: url('../Bilder/Actors/tarconiThumb.PNG');
+	float: left;
+	margin: -12px  20px 0 0;
+}
+
+.sGianni:after {
+	content: url('../Bilder/Actors/gianniThumb.PNG');
+	float: left; 
+	margin: 0 20px 0 0 ;
+}
+
+.sJack:after {
+	content: url('../Bilder/Actors/jackThumb.jpg');
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.sAudrey:after {
+	content: url('../Bilder/Actors/audreyThumb.PNG');
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.sLola :after {
+	content: url('../Bilder/Actors/lolaThumb.PNG');
+	float: right;
+	margin: 0 0 0 20px;
+	border: 4px solid #111;
+}
+
+
+.sJeff:after {
+	content: url('../Bilder/Actors/jeffThumb.jpg');
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#teil2 .sTarconi:after, #teil3 .sTarconi:after {
+	content: url('../Bilder/Actors/tarconiThumb.PNG');
+	float: right;
+	margin: -12px  0 0 20px;
+}
+#teil2 .sTarconi:hover:after, #teil3 .sTarconi:hover:after {
+	margin: -12px 10px 0 10px;
+}
+
+.sValentina:after {
+	content: url('../Bilder/Actors/valentinaThumb.jpg');
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.sMalcom :after {
+	content: url('../Bilder/Actors/malcomThumb.jpg');
+	float: left;
+	margin: 0 20px 0 0 ;
+	border: 4px solid #111;
+}
+
+.sJohnson:after {
+	content: url('../Bilder/Actors/johnsonThumb.gif');
+	float: right;
+	margin: -12px 0 0 20px;
+	border: 4px solid #111;
+}
+
+.sLeonid:after {
+	content: url('../Bilder/Actors/leonidThumb.jpg');
+	float: left;
+	margin: 0 20px 0 0 ;
+	border: 4px solid #111;
+}
+
+/* #actors dd {
+	padding: 0 0 0 10px;
+} */
+
+
+.dl:hover:after {
+	margin: 0 5px ;
+}
+
+
+
+
+
+
+
+
+
+

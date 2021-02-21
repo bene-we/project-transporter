@@ -1,0 +1,40 @@
+
+
+
+#soundtracks {
+width: 100%;
+text-align: center;
+}
+
+#soundtracks td {
+width: 50%;
+padding: 5px 2px;
+}
+
+
+.text {
+text-align: center;
+}
+
+.audio {
+text-align: center;
+}
+
+#downloadbutton {
+text-align: center;
+padding-top: 0px;
+height: 60px;
+}
+
+#downpic {
+height: 60px;
+padding-top: 0px;
+transition: all 1s ease;
+-webkit-transition: all 1s ease;
+}
+
+#downpic:hover {
+height: 70px;
+padding-top: 20px;
+}
+

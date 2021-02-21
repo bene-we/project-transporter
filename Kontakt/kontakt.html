@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Kontakt</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/transporter_styles.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/kontaktStyles.css">
+		<script type="text/javascript" language="JavaScript" src="JavaScript.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	</head>
+	
+	<body id="kontakt">
+	
+	<div class="nav-open">
+			<a href="#nav" title="Menü anzeigen">Nav</a>
+	</div>
+		
+		<div id="nav">
+			<ul>
+				<li id="navHome"><a href="../home_stadt.html">Home</a></li>
+				<li id="navTeil1"><a href="../Teil 1/teil1.html">Teil 1</a>
+						<ul>
+						<a href="../Teil 1/trailer1.html"><li id="navTrailer1">Trailer</li></a>
+						<a href="../Teil 1/songs1.html"><li id="navSongs1">Soundtracks</li></a>
+						</ul>
+					</li>
+				<li id="navTeil2"><a href="../Teil 2/teil2.html">Teil 2</a>
+						<ul>
+						<a href="../Teil 2/trailer2.html"><li id="navTrailer2">Trailer</li></a>
+						<a href="../Teil 2/songs2.html"><li id="navSongs2">Soundtracks</li></a>
+						</ul>
+					</li>
+				<li id="navTeil3"><a href="../Teil 3/teil3.html">Teil 3</a>
+						<ul>
+						<a href="../Teil 3/trailer3.html"><li id="navTrailer3">Trailer</li></a>
+						<a href="../Teil 3/songs3.html"><li id="navSongs3">Soundtracks</li></a>
+						</ul>
+					</li>
+				<li id="navKontakt"><a href="kontakt.html">Kontakt</a></li>
+				<li id="navFrank"><a href="../Frank Martin/frank.html">Frank Martin</a>
+						<ul>
+						<a href="../Frank Martin/autos.html"><li id="navAutos">Autos</li></a>
+						</ul>
+					</li>
+				<li id="navGallery"><a href="../Gallery/gallery.html">Galerie</a></li>
+				<li class="close"><a href="#">&uarr; Menü schließen</a></li>
+			</ul>
+		</div>
+		
+		
+		
+		
+		<h1>Kontakt</h1>
+		
+		<div id="site">
+		
+		
+		
+	<form action="mailto:benedikt.weber22@gmail.com" method="POST" enctype="text/plain" id="form" autocomplete="on">
+		<table>
+			<tr>
+				<td class="text">Vorname</td>
+				<td class="input"><input class="formitem" id="Vorname" name="Vorname" type="text" size="40" maxlength="38" placeholder="Vornamen eingeben"></td>
+			</tr>
+			<tr>
+				<td class="text">Nachname</td>
+				<td class="input"><input  class="formitem" id="Nachname" name="Nachname" type="text" size="40" maxlength="38" placeholder="Nachnamen eingeben"  required=""></td>
+			</tr>
+			<tr>
+				<td class="text">Adresse</td>
+				<td class="input"><input  class="formitem" id="Straße"  name="Straße" type="text" size="20" maxlength="30"  placeholder="Straße eingeben" ">
+								  <input  class="formitem" id="Hausnummer"  name="Hausnummer" type="text" size="3" maxlength="3" placeholder="Nr.">
+								  <input  class="formitem" id="Postleitzahl"  name="Postleitzahl" type="text" size="11.5" maxlength="5" placeholder="Postleitzahl"></td>
+			</tr>
+			<tr>
+				<td class="text">Telefonnummer</td>
+				<td class="input"><input type="tel" class="formitem"  name="Mobil" id="telHome" size="20" maxlength="15" placeholder="Mobilfunknummer">
+				<input class="formitem" type="tel" id="telMobil"  name="Privat" size="17" maxlength="15" placeholder="Festnetznummer">
+			</tr>
+			<tr>
+				<td class="text">Datum und Uhrzeit</td>
+				<td class="input"><input type="date" class="formitem"  name="Datum" id="date" min="2013-01-01" max="2015-12-31" value="2014-01-17" placeholder="Datum">
+								  <input type="time" class="formitem"  name="Uhrzeit" id="time" placeholder="Uhrzeit"></td>
+			</tr>
+			<tr>
+				<td class="text">Dein Alter</td>
+				<td class="input"><input type="number" id="ageDay"  name="Geburtstag" class="formitem" min="1" max="110" size="4" placeholder="Tag">
+								  <input list="months"  name="Geburtstag" placeholder="Monat" class="formitem" id="ageMonth">
+									<datalist id="months">
+										<option value="Januar">
+										<option value="Februar">
+										<option value="März">
+										<option value="April">
+										<option value="Mai">
+										<option value="Juni">
+										<option value="Juli">
+										<option value="August">
+										<option value="September">
+										<option value="Oktober">
+										<option value="November">
+										<option value="Dezember">
+									</datalist>
+								  <input type="number" class="formitem"  name="Geburtstag" id="ageYear" min="1900" max="2013" placeholder="Jahr">
+			<tr>
+				<td class="text">Lieferadresse (eMail)</td>
+				<td class="input"><input  id="meineEMail" class="formitem" type="text" size="40" maxlength="40" value="benedikt.weber22@gmail.com"readonly></td>
+			</tr>
+			<tr>
+				<td class="text">Absender (eMail)</td>
+				<td class="input"><input  id="absenderEMail" class="formitem"  name="Absender" type="email" size="40" maxlength="40" placeholder="Ihre eMail-Adresse eingeben" required="">
+			</tr>
+			<tr>
+				<td class="text">Anliegen</td>
+				<td class="input"><textarea  id="Anliegen" class="formitem"  name="Anliegen" rows="5" cols="40" placeholder="Teilen Sie mir Wünsche, Bitten oder Vorschläge mit"></textarea></td>
+			</tr>
+			<tr>
+				<td class="text">Anhänge</td>
+				<td class="input"><input type="file" id="Upload"  name="Anhänge" class="formitem" size="20"></td>
+			</tr>
+			<tr>
+				<td class="text">Grund des Besuches</td>
+				<td class="input">
+					<select class="formitem" id="Grund" name="Grund des Besuches" >
+						<option selected></option>
+					<optgroup label="Technik">
+						<option>HTML</option>
+						<option>CSS</option>
+						<option>anderes</option>
+					</optgroup>
+					<optgroup label="Transporter">
+						<option>Teil 1</option>
+						<option>Teil 2</option>
+						<option>Teil 3</option>
+						<option>Trilogie</option>
+					</optgroup>
+						<option>Zufall</option>
+						<option>anderer Grund</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td class="text">Lieblingsteil(e)</td>
+				<td class="input" rowspan="3"><input class="formitem"  name="Teil 1" id="Lieblingsteil(e)" type="checkbox">Teil 1<br><input class="formitem"  name="Teil 2" type="checkbox">Teil 2<br><input class="formitem"  name="Teil 3" type="checkbox">Teil 3</td>
+			</tr>
+			<tr>
+				<td class="text">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="text">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="text">Ihr Bevorzugtes Auto <br>von Jason Statham</td>
+				<td class="input"><input type="radio" id="Auto" name="car" class="car">BMW 753i (Teil 1)<br><input type="radio"  id="Auto" name="car" class="car">Audi A8 W12 (Teil 2&3)</td>
+			</tr>
+			<tr>
+				<td class="text">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="text">Auftrag abschicken</td>
+				<td class="input"><input type="image" height="40px" src="animation_stand.gif" formtarget="_blank" id="anikon" alt="" border="0" onMouseover="this.src='52.gif'" onMouseout="this.src='animation_stand.gif'" onClick="alert('Danke für ihr Feedback :-)')" name="submit"></td>
+			</tr>
+			<tr>
+				<td class="text">Auftrag löschen</td>
+				<td class="input"><input value="Reset" type="reset" id="reset" class="formitem" name="reset"></td>
+					
+		</table>
+	</form>
+		
+		
+		
+		</div>
+		
+		
+		<div id="site_up">
+			<a href="#Top"><img src="../Bilder/icons/imageedit_7_4168697915.gif" height="32px"></a>
+		</div>
+		
+		
+		<div id="footer">
+			
+			
+			<table id="foottable">
+				<tr>
+					<td rowspan="2" colspan="2"><b>Über Mich (Autor)</b><br><a href="mailto:benedikt.weber22@gmail.com?subject=Homepage Transporter&body=Sehr geehrter Herr Weber," target="_blank">Kontaktiere mich per Mail</a><br><a href="https://plus.google.com/u/0/110415754956754457041/posts/p/pub" target="_blank">Google+</a><br><a href="https://www.facebook.com/bene.weber.505" target="_blank">Facebook</a></td>
+					<td rowspan="2" colspan="2"><b>Über die Trilogie</b><br><a href="https://plus.google.com/u/0/b/114922445194771312214/114922445194771312214/posts/p/pub" target="_blank">Google +</a><br><a href="https://www.facebook.com/pages/Transporter-123/105654482844145?fref=ts" target="_blank">Facebook</a><br><a href="http://www.filmstarts.de/nachrichten/18478614.html" target="_blank">Artikel auf filmstarts.de</a><br><a href="http://www.amazon.de/s/ref=nb_sb_noss_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Ddvd&field-keywords=transporter+1-3&rh=n%3A284266%2Ck%3Atransporter+1-3" target="_blank">kaufen auf Amazon.de</a></td>
+					<td rowspan="2" colspan="2"><b>andere Links zum Thema</b><br><a href="http://www.thetransportermovie.net/">Teil 1 (sehr informative Seite, Englisch)</a><br><a href="http://www.transporter3-derfilm.de/">Transporter 3 Official Site</a></td>
+				</tr>
+				<tr>
+					
+				</tr>
+				<tr>	
+					<td colspan="6"><FORM method=GET action="http://www.google.com/search" target="_blank" class="search">
+										<input class="searchField" type=text name=q size=31 maxlength=255 placeholder="Google Suche">
+										<input type=image src="../Bilder/icons/typicons/png-48px/zoom.PNG" name=btnG id="searchIco">
+										<input type=hidden name=domains value="transporter">
+										<input type='hidden' name='ie' value='iso-8859-1'>
+										<input type='hidden' name='oe' value='iso-8859-1'>
+									</FORM>
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+		
+		
+	</body>
+</html>
